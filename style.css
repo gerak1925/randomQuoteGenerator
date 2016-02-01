@@ -1,0 +1,59 @@
+body {
+  background:       url(http://imagizer.imageshack.us/v2/xq90/911/eoSKsw.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  text-align:center;
+  color:black;
+}
+
+div {
+  display:block;
+}
+
+#title {
+  font-family:Lobster;
+  font-style:italic;
+  text-shadow:-4px 4px 4px grey;
+}
+
+#generate {
+  margin-bottom:50px;
+}
+
+#generate p {
+  margin-top:30px;
+  font-family:'ManicMondayRegular';
+  font-size:22px;
+}
+
+.butt {
+  background-color:#C7872E;
+  box-shadow:-5px 5px 10px #000;
+  border-radius:10px;
+  margin:30px auto;
+  font-size:25px;
+  font-family:Lobster;
+}
+
+#result {
+  background-color:#E3B271;
+  width:auto;
+  height:auto;
+  max-width:75%;
+  margin:0 auto;
+  border-radius:10px;
+  box-shadow:-5px 5px 10px #000;
+}
+
+#quote {
+  font-family:'ManicMondayRegular';
+  font-size:22px;
+}
+
+#author {
+  font-style:italic;
+  font-family:Lobster;
+  font-size:22px;
+}
