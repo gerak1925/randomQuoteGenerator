@@ -16,11 +16,11 @@ $(document).ready(function() {
 	"The best revenge is massive success.",
 	"There is only one way to avoid criticism: do nothing, say nothing, and be nothing.",
 	"Certain things catch your eye, but pursue only those that capture the heart.",
-	"Believe you can and you’re halfway there.","When I let go of what I am, I become what I might be."];
+	"Believe you can and you’re halfway there.","When I let go of what I am, I become what I might be.","Most people make the mistake of thinking design is what it looks like. People think it's this veneer — that the designers are handed this box and told, 'Make it look good!' That's not what we think design is. It's not just what it looks like and feels like. Design is how it works."];
 
 	var author = ["Peter Arvai","Kevin Kruse","Napoleon Hill","Albert Einstein","Robert Frost",
 	"John Lennon","Chinese Proverb","Socrates","Woody Allen","Steve Jobs","Pablo Picasso","Frank Sinatra",
-	"Aristotle","Ancient Indian Proverb","Theodore Roosevelt","Lao Tzu"];
+	"Aristotle","Ancient Indian Proverb","Theodore Roosevelt","Lao Tzu","Steve Jobs"];
 
  	$(".butt").click(function() {
 
@@ -29,18 +29,10 @@ $(document).ready(function() {
 	    $("#author").html("");
 
 	    //Then we pick a random number (position in array)
-	    var i = Math.floor(Math.random() * 16);
+	    var i = Math.floor(Math.random() * 17);
 	    var j = 17;
-	    //Check to see if current position is equal to the previous one
-	    //(we don't want to display the same quote twice in a row)
-	    if ( i === j) {
-	    	i = Math.floor(Math.random() * 16);
-	    } else {
-	    	j = i;
-	    }
-	    
 	    //Then we display the random picked quote and author
-	    $("#quote").html(quote[j]);
-	    $("#author").html(author[j]);
+	    $("#quote").html(quote[i]);
+	    $("#author").html(author[i]);
  	});
 });

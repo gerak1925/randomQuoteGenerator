@@ -1,5 +1,5 @@
 body {
-  background:       url(http://imagizer.imageshack.us/v2/xq90/911/eoSKsw.jpg) no-repeat center center fixed; 
+  background:url('http://res.cloudinary.com/gerak1/image/upload/v1470732751/quote-bg_jtrtkc.jpg') no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -41,7 +41,7 @@ div {
   background-color:#E3B271;
   width:auto;
   height:auto;
-  max-width:75%;
+  max-width:45%;
   margin:0 auto;
   border-radius:10px;
   box-shadow:-5px 5px 10px #000;
